@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CONTACTOS - Barberia Alura</title>
+        <link rel="shortcut icon" href="/img/ico.png" type="image/x-icon">
+
+        <link rel="stylesheet" href="/reset.css">
+        <link rel="stylesheet" href="/style.css">
+    </head>
+    <body>
+
+        <header class="header">
+            <div class="contenedor menu">
+                <a href="/"><img src="/img/logo-blanco.png" alt="logo-alura"></a>
+                <nav class="menu">
+                    <ul>
+                        <li><a href="/">INICIO</a></li>
+                        <li><a href="productos.html">PRODUCTOS</a></li>
+                        <li><a href="contacto.html">CONTACTOS</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main class="main-contactos">
+            <form action="" class="formulario">
+
+                <h1>Contacto</h1>
+
+                <label for="nombre">Nombre y Apellido</label>
+                <input type="text" id="nombre" required class="input-padron">
+                <label for="correo">Correo Electronico</label>
+                <input type="email" name="" id="correo" required class="input-padron" placeholder="emali@dominio.com">
+
+                <label for="telefono">Teléfono</label>
+                <input type="tel" id="telefono" required class="input-padron" placeholder="(xxx) xxx-xxxx">
+                <label for="tex-tarea">Mensaje</label>
+                <textarea name="" id="tex-tarea" cols="30" rows="10" required
+                    class="input-padron"></textarea>
+
+                <fieldset class="radio">
+                    <legend>¿Cómo le gustaría que le contestemos?</legend>
+
+                    <label class="radio" for="radio-email"><input required
+                            type="radio" name="radio-contacto" id="radio-email"
+                            value="Email"> Email</label>
+
+                    <label class="radio" for="radio-telefono"><input required
+                            type="radio" name="radio-contacto"
+                            id="radio-telefono" value="Telefono">Teléfono</label>
+                    <label class="radio" for="radio-whatapp"> <input
+                            type="radio" required name="radio-contacto"
+                            id="radio-whatapp"
+                            value="Whatapp" checked> Whatapp</label>
+                </fieldset>
+
+                <fieldset class="selector">
+                    <legend>¿En qué horario prefiere ser atendido?</legend>
+                    <select name="" id="" required>
+                        <option value="">Mañana</option>
+                        <option value="">Tarde</option>
+                        <option value="">Noche</option>
+                    </select>
+                </fieldset>
+
+                
+                <label for="notificacion"> Le gustaria recibir novedades de la Barbería Alura?
+                    <input type="checkbox" id="notificacion" checked >
+                </label>
+                <input class="btn-formulario" type="submit" value="Enviar Formulario">
+            </form>
+
+            <table>
+
+                <thead>
+                    <tr>
+                        <td>Día</td>
+                        <td>Horario</td>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Lunes</td>
+                        <td>08h - 20h</td>
+                    </tr>
+                    <tr>
+                        <td>Miércoles</td>
+                        <td>08h - 20h</td>
+                    </tr>
+                    <tr>
+                        <td>Viernes</td>
+                        <td>08h - 20h</td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </main>
+
+        <section class="localizacion">
+            <div class="local">
+            <h3 class="txt-titu">Localización</h3>
+            <p>Nuestro establecimiento esta ubicado en el centro de la ciudad</p>
+            <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3783.998775278851!2d-69.94158878584054!3d18.483714675126222!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8eaf89ec5148da81%3A0xd795dd4b26306a90!2sAgora%20Mall!5e0!3m2!1ses-419!2sdo!4v1674533666110!5m2!1ses-419!2sdo" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>    
+        </section>
+
+        <footer>
+            <img src="/img/logo-blanco.png" alt="" srcset="">
+            <p class="copy">Todos los derechos reservados - 2023 &copy;</p>
+        </footer>
+
+    </body>
+</html>
